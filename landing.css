@@ -281,15 +281,125 @@ ul{
 
 }
 .select{
-    position: relative;
-text-align: center;
-justify-content: center;
+background-color: gray;
+  
+}
+
+
+.sign{
+    width: 280px;
+    height: 430px;
+    margin: 18px;
+    padding: 20px;
+    border: 1px solid rgb(22, 236, 7);
+    border-radius: 5px;
+    background-color: lightslategray;
+    color: aliceblue;
+
+}
+button{
+    font-size: 20px;
+    background-color: #9a5490;
+    color: rgb(10, 244, 10);
+    font-style: italic;
+
+
 }
 #title{
-    font-size: xx-large;
+    font-size: 45px;
     align-content: center;
-    margin: 20px auto;
+    margin: 10px auto;
     color: #05f666;
     font-weight: bolder;
     font-style: italic;
 }
+.container{
+    width: 390px;
+    height: 600px;
+    border: 3px solid rgb(4, 47, 140);
+    border-radius: 8px;
+    text-align: center;
+    font-size: 35px;
+    background-color: whitesmoke;
+    
+
+    
+}
+
+.container p{
+    font-style: oblique;
+    color: #e6ebe5;
+    margin-top: 2px;
+    font-weight: bolder;
+    padding-top: 0%;
+    margin-top: 0% auto;
+
+}
+.content{
+    width: 300px;
+    height: 450px;
+    border: 3px solid rgb(7, 27, 206);
+    border-radius: 3px;
+    text-align: center;
+    background-color: rgb(231, 237, 243);
+    font-size: 1.5em;
+}
+.near{
+    font-size: 30px;
+    font-weight: bold;
+    font-style: normal;
+    text-transform: capitalize;
+    text-decoration: solid;
+    text-align: center;
+    color: rgb(235, 227, 227);
+
+ 
+}
+/* div.near{ */
+ /* background-color: #242121; */
+/* } */
+#tall{
+    font-size: larger;
+    text-decoration: solid;
+    text-transform: capitalize;
+    font-style: normal;
+    font-weight: bolder;
+    color: rgb(6, 157, 24);
+}
+.small{
+    text-align: center;
+    width: 200px;
+    height: 300px;
+    margin: 40px 40px 0px 40px;
+    border: 2px solid rgb(7, 156, 39);
+    font-size: 45px;
+    font-weight: lighter;
+    background-color: #847575;
+}
+#nsme{
+    font-size: 20px;
+    color: blue;
+}
+#pass{
+    display: flex;
+     direction: rtl; 
+    margin-right: 30px;
+    font-size: 20px;
+    color: #e5e5d7;
+    font-style: oblique;
+
+ 
+}
+.clir{
+    background-color: #3b3b56;
+
+}
+p{
+    margin-top: 7px;
+    font-size: 30px;
+    font-weight: lighter;
+    font-style: oblique;
+}
+/* div p{ */
+    /* background-color: #5e4f4f; */
+/* } */
